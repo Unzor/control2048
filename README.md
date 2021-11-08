@@ -1,16 +1,12 @@
-# http-2048
-2048 in an Electron app, but secondarily controlled by HTTP requests!
+# control2048
+2048 in an Electron app, but possible to control using a code!
 
 # Setup
 Run this in your terminal:
 ```
-git clone https://github.com/Unzor/http-2048
-cd http-2048
+git clone https://github.com/Unzor/control2048
+cd control2048
 npm start
 ```
-Then make an HTTP request to localhost:2048 at "/api/move" with a body like this:
-```json
-{
- "direction": "up"
-}
- ```
+Then open up https://mob-2048.seven7four4.repl.co/ and enter the code in your window.
+You should see four buttons to control the game.
